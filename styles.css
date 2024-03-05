@@ -1,1 +1,102 @@
-/* Write your CSS here! */
+/* Apply CSS styles to the entire document */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 8;
+    padding: 0;
+    background-color: lightcoral;
+    display: block;
+
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the article section */
+article {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the header */
+header {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: left;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Style the poem */
+p1 {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    white-space: pre-wrap; 
+}
+
+/* Style the images */
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Style the links */
+a {
+    color: pink;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ID Selector */
+#mainHeading {
+    color: red; 
+    font-size: 35px; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    text-decoration: underline; /* Add underline to the heading */
+}
+
+
+/* Class Selector */
+.funParagraph {
+    color: green; 
+    font-size: 18px; 
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Give a heading on your page the id of 
+mainHeading and use the id selector in styles.css 
+to apply a styling of your choosing.
+
+Give a paragraph on your page the id 
+of testP and a class name of funParagraph. 
+Use the class selector in styles.css and 
+give it a styling of your choosing. 
+
+
+
+*/
